@@ -13,6 +13,8 @@
 		A9A09516252798D5000AE555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A09514252798D5000AE555 /* Main.storyboard */; };
 		A9A09518252798D9000AE555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A09517252798D9000AE555 /* Assets.xcassets */; };
 		A9A0951B252798D9000AE555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A09519252798D9000AE555 /* LaunchScreen.storyboard */; };
+		A9A0952425279935000AE555 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A0952325279935000AE555 /* Keyboard.xib */; };
+		A9A0952725279B96000AE555 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0952625279B96000AE555 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9A09517252798D9000AE555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A0951A252798D9000AE555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A0951C252798D9000AE555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A0952325279935000AE555 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		A9A0952625279B96000AE555 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		A9A0950D252798D5000AE555 /* KeyboardRiptutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A9A0952625279B96000AE555 /* Keyboard.swift */,
+				A9A0952325279935000AE555 /* Keyboard.xib */,
 				A9A0950E252798D5000AE555 /* AppDelegate.swift */,
 				A9A09510252798D5000AE555 /* SceneDelegate.swift */,
 				A9A09512252798D5000AE555 /* ViewController.swift */,
@@ -126,6 +132,7 @@
 			files = (
 				A9A0951B252798D9000AE555 /* LaunchScreen.storyboard in Resources */,
 				A9A09518252798D9000AE555 /* Assets.xcassets in Resources */,
+				A9A0952425279935000AE555 /* Keyboard.xib in Resources */,
 				A9A09516252798D5000AE555 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				A9A09513252798D5000AE555 /* ViewController.swift in Sources */,
 				A9A0950F252798D5000AE555 /* AppDelegate.swift in Sources */,
+				A9A0952725279B96000AE555 /* Keyboard.swift in Sources */,
 				A9A09511252798D5000AE555 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,29 +14,29 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="47" translatesAutoresizingMaskIntoConstraints="NO" id="BuP-6E-o7Q">
-                    <rect key="frame" x="0.0" y="44" width="94" height="110"/>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BuP-6E-o7Q">
+                    <rect key="frame" x="160" y="44" width="94" height="110"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="SKc-RV-0zU">
-                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="110"/>
+                            <rect key="frame" x="0.0" y="40" width="25.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="One"/>
                             <connections>
                                 <action selector="button_1:" destination="-1" eventType="touchUpInside" id="Jn4-sc-g37"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="LUD-jB-uj1">
-                            <rect key="frame" x="47" y="0.0" width="0.0" height="110"/>
+                            <rect key="frame" x="30.5" y="40" width="26" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Two"/>
                             <connections>
                                 <action selector="button_2:" destination="-1" eventType="touchUpInside" id="MEb-bA-3zW"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="PGw-Iy-cLJ">
-                            <rect key="frame" x="94" y="0.0" width="0.0" height="110"/>
+                            <rect key="frame" x="61.5" y="40" width="32.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Three"/>
                             <connections>
                                 <action selector="button_3:" destination="-1" eventType="touchUpInside" id="0Lg-sk-Svu"/>
                             </connections>
@@ -48,7 +48,7 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="BuP-6E-o7Q" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="6hx-wo-jIj"/>
-                <constraint firstItem="BuP-6E-o7Q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LC4-xZ-PjF"/>
+                <constraint firstItem="BuP-6E-o7Q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Jrz-QA-QjW"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
         </view>

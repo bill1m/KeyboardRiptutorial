@@ -4,6 +4,10 @@
 //
 //  Created by Bill Morrison on 10/2/20.
 //
+// https://stackoverflow.com/questions/33474771/a-swift-example-of-custom-views-for-data-input-custom-in-app-keyboard/33692231#33692231
+
+// https://riptutorial.com/ios/example/16976/create-a-custom-in-app-keyboard
+
 
 import UIKit
 
@@ -14,16 +18,7 @@ protocol KeyboardDelegate: class {
 }
 
 class Keyboard: UIView {
-    @IBAction func button_1(_ sender: Any) {
-        print("pressed 1")
-    }
-    
-    @IBAction func button_2(_ sender: Any) {
-        print("pressed 2")
-    }
-    @IBAction func button_3(_ sender: Any) {
-        print("pressed 3")
-    }
+
     // This variable will be set as the view controller so that
     // the keyboard can send messages to the view controller.
     weak var delegate: KeyboardDelegate?

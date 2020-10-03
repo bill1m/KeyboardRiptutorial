@@ -18,27 +18,27 @@
                     <rect key="frame" x="160" y="44" width="94" height="110"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="SKc-RV-0zU">
-                            <rect key="frame" x="0.0" y="40" width="25.5" height="30"/>
+                            <rect key="frame" x="0.0" y="40" width="28" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="One"/>
+                            <state key="normal" title="1"/>
                             <connections>
-                                <action selector="button_1:" destination="-1" eventType="touchUpInside" id="Jn4-sc-g37"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="DMy-mM-sl0"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="LUD-jB-uj1">
-                            <rect key="frame" x="30.5" y="40" width="26" height="30"/>
+                            <rect key="frame" x="33" y="40" width="28.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Two"/>
+                            <state key="normal" title="2"/>
                             <connections>
-                                <action selector="button_2:" destination="-1" eventType="touchUpInside" id="MEb-bA-3zW"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="Qlz-9Q-RXX"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="PGw-Iy-cLJ">
-                            <rect key="frame" x="61.5" y="40" width="32.5" height="30"/>
+                            <rect key="frame" x="66.5" y="40" width="27.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Three"/>
+                            <state key="normal" title="3"/>
                             <connections>
-                                <action selector="button_3:" destination="-1" eventType="touchUpInside" id="0Lg-sk-Svu"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="Qnn-o3-e64"/>
                             </connections>
                         </button>
                     </subviews>

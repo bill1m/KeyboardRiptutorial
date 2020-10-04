@@ -13,20 +13,19 @@
 import UIKit
 
 class ViewController: UIViewController, KeyboardDelegate {
+    
     @IBOutlet weak var textField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // initialize custom keyboard
-        let keyboardView = Keyboard(frame: CGRect(x: 0, y: 0, width: 0, height: 300))
-        keyboardView.delegate = self // the view controller will be notified by the keyboard whenever a key is tapped
-        
-        // replace system keyboard with custom keyboard
-        textField.inputView = keyboardView
+        // Custom Keyboard
+        let keyboard = Keyboard(frame: CGRect(x: 0, y: 0, width: 0, height: 150))
+        // Note: the textField holds a reference
+        keyboard.initialize(textField: textField, delegate: self)
     }
     
-    // required method for keyboard delegate protocol
+    // Keyboard delegate method
     func keyWasTapped(character: String) {
         switch character {
             case "⏎":
@@ -35,6 +34,5 @@ class ViewController: UIViewController, KeyboardDelegate {
                 textField.insertText(character)
         }
     }
-    // Do any additional setup after loading the view.
 }
 

@@ -17,28 +17,44 @@
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BuP-6E-o7Q">
                     <rect key="frame" x="160" y="44" width="94" height="110"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="SKc-RV-0zU">
-                            <rect key="frame" x="0.0" y="40" width="28" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="zoi-b9-zHY" userLabel="club">
+                            <rect key="frame" x="0.0" y="40" width="16.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="1"/>
+                            <state key="normal" title="♣️"/>
                             <connections>
-                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="DMy-mM-sl0"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="9rw-bR-2Ej"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="LUD-jB-uj1">
-                            <rect key="frame" x="33" y="40" width="28.5" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="J3w-Lx-dci" userLabel="diamond">
+                            <rect key="frame" x="21.5" y="40" width="16.5" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="2"/>
+                            <state key="normal" title="♦️"/>
                             <connections>
-                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="Qlz-9Q-RXX"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="pcU-Zb-LyQ"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="PGw-Iy-cLJ">
-                            <rect key="frame" x="66.5" y="40" width="27.5" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="a3I-Xn-oOz" userLabel="heart">
+                            <rect key="frame" x="43" y="40" width="17" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="3"/>
+                            <state key="normal" title="♥️"/>
                             <connections>
-                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="Qnn-o3-e64"/>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="Q6I-kd-21G"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="h74-mA-0of" userLabel="spade">
+                            <rect key="frame" x="65" y="40" width="16.5" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="♠️"/>
+                            <connections>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="UlQ-jG-Wg3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="qsS-4f-Vc8" userLabel="return">
+                            <rect key="frame" x="86.5" y="40" width="7.5" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="⏎"/>
+                            <connections>
+                                <action selector="keyTappedWithSender:" destination="-1" eventType="touchUpInside" id="daQ-KZ-k7E"/>
                             </connections>
                         </button>
                     </subviews>

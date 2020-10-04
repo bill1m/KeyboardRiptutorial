@@ -28,7 +28,12 @@ class ViewController: UIViewController, KeyboardDelegate {
     
     // required method for keyboard delegate protocol
     func keyWasTapped(character: String) {
-        textField.insertText(character)
+        switch character {
+            case "⏎":
+                textField.resignFirstResponder()
+            default:
+                textField.insertText(character)
+        }
     }
     // Do any additional setup after loading the view.
 }

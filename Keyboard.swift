@@ -37,17 +37,13 @@ class Keyboard: UIView {
     /// - Parameters:
     ///   - textField: textField description
     ///   - delegate: <#delegate description#>
-    func initialize(textField: UITextField, delegate: KeyboardDelegate) {
-        loadKeyboardNib()
-        textField.inputView = self
-        self.delegate = delegate
-    }
-    
-    func loadKeyboardNib() {
+    func loadKeyboardNib(textField: UITextField, delegate: KeyboardDelegate) {
         let xibFileName = "Keyboard" // xib extention not included
-        let view = Bundle.main.loadNibNamed(xibFileName, owner: self, options: nil)![0] as! UIView
+        let view = Bundle.main.loadNibNamed(xibFileName, owner: self, options: nil)![0] as! Keyboard
         self.addSubview(view)
         view.frame = self.bounds
+        textField.inputView = self
+        self.delegate = delegate
     }
     
     // MARK:- Button actions from .xib file

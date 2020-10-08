@@ -22,7 +22,7 @@ class ViewController: UIViewController, KeyboardDelegate {
         // Custom Keyboard
         let keyboard = Keyboard(frame: CGRect(x: 0, y: 0, width: 0, height: 150))
         // Note: the textField holds a reference
-        keyboard.initialize(textField: textField, delegate: self)
+        keyboard.loadKeyboardNib(textField: textField, delegate: self)
     }
     
     // Keyboard delegate method

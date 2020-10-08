@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A941EF5B252E9A99004EC082 /* KeyboardRiptutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941EF5A252E9A99004EC082 /* KeyboardRiptutorialUITests.swift */; };
 		A9A0950F252798D5000AE555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0950E252798D5000AE555 /* AppDelegate.swift */; };
 		A9A09511252798D5000AE555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A09510252798D5000AE555 /* SceneDelegate.swift */; };
 		A9A09513252798D5000AE555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A09512252798D5000AE555 /* ViewController.swift */; };
@@ -17,7 +18,20 @@
 		A9A0952725279B96000AE555 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0952625279B96000AE555 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A941EF5D252E9A99004EC082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9A09503252798D5000AE555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A0950A252798D5000AE555;
+			remoteInfo = KeyboardRiptutorial;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A941EF58252E9A99004EC082 /* KeyboardRiptutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardRiptutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A941EF5A252E9A99004EC082 /* KeyboardRiptutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRiptutorialUITests.swift; sourceTree = "<group>"; };
+		A941EF5C252E9A99004EC082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A0950B252798D5000AE555 /* KeyboardRiptutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardRiptutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A0950E252798D5000AE555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A09510252798D5000AE555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A941EF55252E9A99004EC082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A09508252798D5000AE555 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,11 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A941EF59252E9A99004EC082 /* KeyboardRiptutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A941EF5A252E9A99004EC082 /* KeyboardRiptutorialUITests.swift */,
+				A941EF5C252E9A99004EC082 /* Info.plist */,
+			);
+			path = KeyboardRiptutorialUITests;
+			sourceTree = "<group>";
+		};
 		A9A09502252798D5000AE555 = {
 			isa = PBXGroup;
 			children = (
 				A9A095292527FAFA000AE555 /* README.md */,
 				A9A0950D252798D5000AE555 /* KeyboardRiptutorial */,
+				A941EF59252E9A99004EC082 /* KeyboardRiptutorialUITests */,
 				A9A0950C252798D5000AE555 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A9A0950B252798D5000AE555 /* KeyboardRiptutorial.app */,
+				A941EF58252E9A99004EC082 /* KeyboardRiptutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +110,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A941EF57252E9A99004EC082 /* KeyboardRiptutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A941EF61252E9A99004EC082 /* Build configuration list for PBXNativeTarget "KeyboardRiptutorialUITests" */;
+			buildPhases = (
+				A941EF54252E9A99004EC082 /* Sources */,
+				A941EF55252E9A99004EC082 /* Frameworks */,
+				A941EF56252E9A99004EC082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A941EF5E252E9A99004EC082 /* PBXTargetDependency */,
+			);
+			name = KeyboardRiptutorialUITests;
+			productName = KeyboardRiptutorialUITests;
+			productReference = A941EF58252E9A99004EC082 /* KeyboardRiptutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A9A0950A252798D5000AE555 /* KeyboardRiptutorial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A0951F252798D9000AE555 /* Build configuration list for PBXNativeTarget "KeyboardRiptutorial" */;
@@ -104,6 +154,10 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					A941EF57252E9A99004EC082 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A9A0950A252798D5000AE555;
+					};
 					A9A0950A252798D5000AE555 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -123,11 +177,19 @@
 			projectRoot = "";
 			targets = (
 				A9A0950A252798D5000AE555 /* KeyboardRiptutorial */,
+				A941EF57252E9A99004EC082 /* KeyboardRiptutorialUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A941EF56252E9A99004EC082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A09509252798D5000AE555 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +204,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A941EF54252E9A99004EC082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A941EF5B252E9A99004EC082 /* KeyboardRiptutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A09507252798D5000AE555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +224,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A941EF5E252E9A99004EC082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A0950A252798D5000AE555 /* KeyboardRiptutorial */;
+			targetProxy = A941EF5D252E9A99004EC082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A9A09514252798D5000AE555 /* Main.storyboard */ = {
@@ -175,6 +253,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A941EF5F252E9A99004EC082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M53XDDT297;
+				INFOPLIST_FILE = KeyboardRiptutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whm.KeyboardRiptutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardRiptutorial;
+			};
+			name = Debug;
+		};
+		A941EF60252E9A99004EC082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M53XDDT297;
+				INFOPLIST_FILE = KeyboardRiptutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whm.KeyboardRiptutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardRiptutorial;
+			};
+			name = Release;
+		};
 		A9A0951D252798D9000AE555 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,6 +448,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A941EF61252E9A99004EC082 /* Build configuration list for PBXNativeTarget "KeyboardRiptutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A941EF5F252E9A99004EC082 /* Debug */,
+				A941EF60252E9A99004EC082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9A09506252798D5000AE555 /* Build configuration list for PBXProject "KeyboardRiptutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
